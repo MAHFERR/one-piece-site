@@ -1,0 +1,62 @@
+@media (max-width: 769px) {
+    main::after {
+        background: linear-gradient(0deg, #000 20%, rgba(0, 0, 0, 0) 65%) no-repeat;
+        width: 100vw;
+    }
+
+    main .tripulacao .imagem {
+        height: 85%;
+    }
+
+    .conteúdo {
+        justify-content: flex-end;
+        left: 0;
+        top: -20%;
+        max-width: 100vw;
+        padding: 30px;
+    }
+
+    .conteúdo .nome-tripulacao {
+        max-width: 500px;
+    }
+
+    .botoes {
+        flex-direction: row;
+        align-items: flex-end;
+        width: 100%;
+        padding: 60px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    main .tripulacao .imagem {
+        height: auto;
+    }
+
+    .conteudo .logo {
+        width: 8px;
+        height: 20px;
+    }
+
+    .conteudo {
+        top: 20%;
+    }
+
+    .conteudo .nome-tripulacao {
+        font-size: 20px;
+    }
+
+    .botoes {
+        padding: 20px;
+        flex-direction: column;
+        min-height: 100vh;
+        justify-content: center;
+        align-items: center;
+        right: 120px;
+    }
+
+    .botoes .botao img {
+        max-width: 30px;
+    }
+}
